@@ -1,0 +1,2 @@
+Use Roboto font.
+Hero text (statement at the top of the page) should be included.
