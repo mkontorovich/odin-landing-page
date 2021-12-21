@@ -1,3 +1,114 @@
+:root {
+  --hero-footer-bg-color: #2a384e;
+  --quote-bg-color: #e5e7eb;
+  --light-bg-color: #fff;
+
+  --hero-main-text: #191d24;
+  --hero-secondary-text: #e5e7eb;
+  --hero-logo-text: #f9faf8;
+  --information-header-text: #1f2937;
+  --quote-text: #1f2937;
+
+  --button-color: #3882f6;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-decoration: none;
+}
+
 body {
   font-family: Roboto, -apple-system, BlinkMacSystemFont, sans-serif;
+  background: var(--light-bg-color);
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  align-items: center;
+  color: var(--quote-bg-color);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  flex-direction: row;
+  background-color: var(--hero-footer-bg-color);
+  padding-left: 175px;
+  padding-right: 175px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--hero-logo-text);
+  flex: 1;
+}
+
+.section-1 {
+  display: flex;
+  flex-direction: row;
+  background-color: var(--hero-footer-bg-color);
+  padding-left: 175px;
+  padding-right: 175px;
+  padding-top: 20px;
+  padding-bottom: 100px;
+  justify-content: space-between;
+}
+
+.section-1-left {
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+  margin-right: 20px;
+}
+
+h1.section-1-left {
+  display: flex;
+  flex-direction: row;
+  font-size: 48px;
+  font-weight: 900;
+  color: var(--hero-logo-text);
+}
+
+p.section-1-left {
+  display: flex;
+  flex-direction: row;
+  margin-top: 5px;
+  color: var(--quote-bg-color);
+}
+
+button.section-1-left {
+  display: flex;
+  flex-direction: row;
+  background: var(--button-color);
+  color: var(--quote-bg-color);
+  font-weight: bold;
+  justify-content: center;
+  width: 100px;
+  padding: 5px;
+  margin-top: 10px;
+  border-radius: 6px;
+  border-color: var(--button-color);
+}
+
+img.section-1-right {
+  display: flex;
+  flex-direction: row;
+  width: 700px;
+  height: 350px;
+  object-fit: cover;
+  object-position: 100px -100px;
 }
