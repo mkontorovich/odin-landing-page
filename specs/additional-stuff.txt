@@ -1,3 +1,0 @@
-[X] Use Roboto font.
-Hero text (statement at the top of the page) should be included.
-Website has 4 main sections (and a footer).
