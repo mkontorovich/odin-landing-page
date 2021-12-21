@@ -5,4 +5,4 @@ It's focused on HTML and CSS. I'll be utilizing mostly flexbox for designing the
 
 See it live at <https://mkontorovich.github.io/odin-landing-page/>
 
-Cat photo shot by Arina Krasnikova: <https://shorturl.at/hkGV4>
+Cat photo shot by Arina Krasnikova: <https://images.pexels.com/photos/7725618/pexels-photo-7725618.jpeg>
